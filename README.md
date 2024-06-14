@@ -5,3 +5,6 @@ This app allows you to run your code online, similar to what replit does. This a
 
 
 ![Untitled Diagram](https://github.com/rehanganapathy/online-ide/assets/79349712/0cbc33e2-d2dd-4875-a0e7-53758fd36c2e)
+
+
+To run this, make sure you have an online kubernetes cluster running(could use GCP or vultr), specify the urls for ingress and add the base code to s3. To add more security you could add a proxy server, and add another pod for each pod created and run the terminal on your second pod to prevernt your s3 info from getting leaked. 
